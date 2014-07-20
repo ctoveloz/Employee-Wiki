@@ -1,0 +1,30 @@
+{
+  "name": "employe-wiki",
+  "version": "0.0.0",
+  "description": "Find information on employees of a company",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctoveloz/Employee-Wiki.git"
+  },
+  "keywords": [
+    "employer",
+    "nodejs",
+    "webservice"
+  ],
+  "author": "Cristiano Veloz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctoveloz/Employee-Wiki/issues"
+  },
+  "homepage": "https://github.com/ctoveloz/Employee-Wiki",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.6.1",
+    "mongoose": "^3.8.13",
+    "validator": "^3.16.1"
+  }
+}
